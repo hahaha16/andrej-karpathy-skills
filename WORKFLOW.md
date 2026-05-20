@@ -31,7 +31,7 @@ workspace:
 hooks:
   # 新建工作区时执行：clone 你的代码仓库
   after_create: |
-    git clone --depth 1 git@github.com:your-org/your-repo.git .
+    git clone --depth 1 git@github.com:hahaha16/andrej-karpathy-skills.git
     # 如果有依赖需要安装，在这里执行
     # npm install
     # go mod download
